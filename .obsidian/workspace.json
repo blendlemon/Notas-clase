@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d6a7dabbdd36b8d4",
+        "id": "082d8cede2061e7c",
         "type": "tabs",
         "children": [
           {
-            "id": "412fd5db5c93dd2b",
+            "id": "86be340e3a727844",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemas informaticos/TEMA 3.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "TEMA 3"
+              "title": "New tab"
             }
           }
         ]
@@ -41,7 +37,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "aea5fb8f7bc104da",
@@ -95,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas informaticos/TEMA 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for TEMA 3"
+              "title": "Backlinks"
             }
           },
           {
@@ -114,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas informaticos/TEMA 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TEMA 3"
+              "title": "Outgoing links"
             }
           },
           {
@@ -152,7 +145,8 @@
               "title": "Outline of TEMA 3"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -166,13 +160,24 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "412fd5db5c93dd2b",
+  "active": "86be340e3a727844",
   "lastOpenFiles": [
-    "2025-02-20.md",
+    "Bases de datos/Proyecto/Drawing 2025-02-20 20.27.31.excalidraw.md",
+    "Bases de datos/Proyecto/Tablas 3FN.md",
+    "Bases de datos/Proyecto/Entidad Relación.md",
     "Sistemas informaticos/TEMA 3.md",
+    "Untitled.canvas",
+    "flow-chart-symbols.excalidrawlib",
+    "Excalidraw",
+    "Bases de datos/Proyecto/Modelo relacional.md",
+    "Excalidraw/Drawing 2025-02-20 20.16.16.excalidraw.md",
+    "Bases de datos/Proyecto",
+    "Bases de datos",
+    "2025-02-20.md",
     "create a link.md",
     "Sistemas informaticos",
     "Welcome.md"
