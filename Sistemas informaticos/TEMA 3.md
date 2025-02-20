@@ -14,7 +14,7 @@
 		1. Distribuciones escritorio	
 			1. Ubuntu y Mint
 			2. Arch Linux
-			3. Kali Linux y Mint
+			3. Kali Linux y Tails
 			4. Chromium OS
 			5. Manjaro
 			6. Android
