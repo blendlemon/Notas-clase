@@ -11,10 +11,14 @@
             "id": "86be340e3a727844",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Bases de datos/Proyecto/Entidad Relación.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Entidad Relación"
             }
           }
         ]
@@ -167,8 +171,8 @@
   "active": "86be340e3a727844",
   "lastOpenFiles": [
     "Bases de datos/Proyecto/Drawing 2025-02-20 20.27.31.excalidraw.md",
-    "Bases de datos/Proyecto/Tablas 3FN.md",
     "Bases de datos/Proyecto/Entidad Relación.md",
+    "Bases de datos/Proyecto/Tablas 3FN.md",
     "Sistemas informaticos/TEMA 3.md",
     "Untitled.canvas",
     "flow-chart-symbols.excalidrawlib",

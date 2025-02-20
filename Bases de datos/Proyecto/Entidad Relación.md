@@ -27,3 +27,5 @@ entierra(***dniEmpleado***, ***codigo***)
 FALLECIDO(**codigo**, dniMuerto, nombre, apellidos, fechaNacimiento, fechaDefuncion)
 
 ocupa(***codigo***, ***numeroTumba***)
+
+tiene(***dniFamiliar***, ***codigo***)
