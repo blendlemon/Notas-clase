@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "86be340e3a727844",
+            "id": "c9989d5989242301",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Bases de datos/Proyecto/Entidad Relación.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -168,7 +168,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "86be340e3a727844",
+  "active": "c9989d5989242301",
   "lastOpenFiles": [
     "Bases de datos/Proyecto/Drawing 2025-02-20 20.27.31.excalidraw.md",
     "Bases de datos/Proyecto/Entidad Relación.md",
