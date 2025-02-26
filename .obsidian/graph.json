@@ -8,21 +8,28 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "Sistemas",
+      "query": "path:\"Sistemas informaticos\"  ",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "",
+      "query": "path:Contornos  ",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
+    },
+    {
+      "query": "path:\"Bases de datos\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5401056
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
@@ -32,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.2588386562181627,
+  "scale": 1.4019828977761093,
   "close": true
 }
