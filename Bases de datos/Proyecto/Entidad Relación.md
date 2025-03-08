@@ -1,31 +1,13 @@
-Empleado(**dniEmpleado**, nombre, teléfono, antigüedad, apellidos, dirección, salario)
-
-PUESTO(***dniEmpleado***, puesto)
-
-factura(***dniEmpleado***, ***dniFamiliar***, fecha, cantidad)
-
-FAMILIAR(**dniFamiliar**, nombre)
-
-TUMBA(**numeroTumba**)
-
-NICHO(***numeroTumba***, altura, inscripción)
-
-FOSA(***numeroTumba***, capacidad)
-
-PANTEON(***numeroTumba***, capacidad, inscripción)
-
-posee(***dniFamiliar***, ***numeroTumba***)
-
-contiene(***numeroSector***, ***numeroTumba***)
-
-SECTOR(***numeroSector***, capacidad, extensión)
-
-encarga(***dniEmpleado***, ***numeroSector***)
-
-entierra(***dniEmpleado***, ***codigo***)
-
-FALLECIDO(**codigo**, dniMuerto, nombre, apellidos, fechaNacimiento, fechaDefuncion)
-
-ocupa(***codigo***, ***numeroTumba***)
-
-tiene(***dniFamiliar***, ***codigo***)
+- **EMPLEADO(**dniEmpleado**)** (nombre, apellidos, teléfono, antigüedad, dirección, salario, puesto)
+- **FACTURA(**idFactura**)** (dniFamiliar, fecha, cantidad)
+- **FAMILIAR(**dniFamiliar**)** (nombre)
+- **TUMBA(**numeroTumba**)** (tipo)
+- **DETALLE_TUMBA(**numeroTumba**)** (capacidad, altura, inscripción) _(FK de TUMBA, pero sigue siendo PK aquí)_
+- **SECTOR(**numeroSector**)** (capacidad, extensión)
+- **POSEE(**dniFamiliar, numeroTumba**)** _(PK compuesta)_
+- **CONTIENE(**numeroSector, numeroTumba**)** _(PK compuesta)_
+- **ENCARGA(**dniEmpleado, numeroSector**)** _(PK compuesta)_
+- **FALLECIDO(**codigoFallecido**)** (dniMuerto, nombre, apellidos, fechaNacimiento, fechaDefuncion)
+- **OCUPA(**codigoFallecido, numeroTumba**)** _(PK compuesta)_
+- **TIENE(**dniFamiliar, codigoFallecido**)** _(PK compuesta)_
+- **ENTIERRA(**dniEmpleado, codigoFallecido**)** _(PK compuesta)_
