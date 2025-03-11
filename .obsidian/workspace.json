@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "082d8cede2061e7c",
+        "id": "4fe0ae41327f1ace",
         "type": "tabs",
         "children": [
           {
-            "id": "86be340e3a727844",
+            "id": "09963f181e3494c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de datos/Proyecto/Entidad Relación.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Entidad Relación"
-            }
-          },
-          {
-            "id": "878aba66ab8a7b17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Contornos/Herramientas SW para pruebas.md",
+                "file": "Ejercicio 1 Clases equivalencia.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Herramientas SW para pruebas"
+              "title": "Ejercicio 1 Clases equivalencia"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +44,7 @@
                 "autoReveal": true
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -93,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "aea5fb8f7bc104da",
@@ -174,27 +160,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "878aba66ab8a7b17",
+  "active": "09963f181e3494c3",
   "lastOpenFiles": [
+    "Ejercicio 1 Clases equivalencia.md",
+    "Contornos/Boletín 2.md",
     "Contornos/Normas relacionadas con el software documentación y pruebas.md",
-    "Bases de datos/Proyecto/Entidad Relación.md",
-    "Sistemas informaticos/MODELO OSI.md",
-    "Contornos/Herramientas SW para pruebas.md",
-    "Contornos",
     "Bases de datos/Boletin teoria 2/Boletin Teoria 2.md",
+    "Sistemas informaticos/MODELO OSI.md",
+    "Sistemas informaticos/Tarea 3. Ejemplos Protocolos.md",
+    "Sistemas informaticos/TEMA 3.md",
+    "Contornos/Herramientas SW para pruebas.md",
     "Bases de datos/Boletin teoria 2",
+    "Bases de datos/Proyecto/Entidad Relación.md",
+    "Contornos",
     "Bases de datos/Proyecto/Drawing 2025-02-20 20.27.31.excalidraw.md",
     "Bases de datos/Proyecto/Tablas 3FN.md",
-    "Sistemas informaticos/TEMA 3.md",
     "Untitled.canvas",
     "flow-chart-symbols.excalidrawlib",
     "Excalidraw",
