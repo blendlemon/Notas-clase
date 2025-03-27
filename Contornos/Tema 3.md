@@ -173,3 +173,170 @@ Resumen:
 - Funcionales: ¿Hace lo que debe hacer? (Manual/Automático)
 - No funcionales: ¿Cómo lo hace? (Rendimiento, seguridad, etc.).
 - Regresivas: ¿Sigue funcionando después de los cambios?
+
+# Caja Blanca
+
+Las pruebas de caja blanca se centran en analizar la estructura interna del software, incluyendo el código, flujos de control, estructuras de datos y lógica interna. Requieren acceso al código fuente y conocimientos de programación.
+
+**Objetivos de las Pruebas de Caja Blanca**
+- Detectar problemas de seguridad internos
+- Evaluar la calidad del código
+- Verificar el flujo de ejecución para diferentes entradas
+- Comprobar el funcionamiento de bucles y condiciones
+- Probar individualmente declaraciones, objetos y funciones
+
+**Proceso Iterativo**
+1. Entender el código fuente
+2. Crear casos de prueba
+3. Ejecutar los casos de prueba
+
+**Criterios de cobertura**
+
+1. **Cobertura de Sentencias**: Ejecutar cada sentencia al menos una vez
+2. **Cobertura de Decisión**: Probar cada condición (verdadero y falso)
+3. **Cobertura de Condiciones**: Cada subcondición dentro de una decisión debe evaluarse como verdadera y falsa.
+4. **Cobertura Decisión/Condición**: Combinación de cobertura de decisiones y condiciones.
+5. **Cobertura de Caminos**: Ejecutar todos los caminos posibles del programa
+
+**Cobertura de Caminos y Complejidad Ciclomática (McCabe)**
+
+- Técnica para garantizar que se prueban todos los caminos posibles
+- **Pasos**:
+	1. **Representar el programa como un grafo de flujo**
+	2. **Calcular la complejidad ciclomática**
+	3. **Identificar caminos básicos independientes**
+	4. **Generar casos de prueba**
+
+**Elementos del Grafo de Flujo**:
+- **Nodos**
+- **Aristas**
+- **Regiones**: Áreas delimitadas por nodos y aristas
+- **Nodos predicado**: Nodos que representan condiciones lógicas (AND, OR, etc.)
+
+Estas técnicas permiten diseñar pruebas más exhaustivas y detectar errores ocultos en la lógica interna del software
+
+**Complejidad Ciclomática**
+
+Es una métrica que mide la complejidad lógica de un programa y determina el número de **caminos independientes** necesarios para probarlo
+
+**Métodos de Cálculo:**
+
+1. **Número de reginoes del grafo**: `V(G) = Nº de regiones`
+2. **Fórmula de aristas y nodos**: `V(G) = Aristas - Nodos + 2`
+3. **Nodos predicado**: `V(G) = Nodos Predicado + 1`
+
+**Conjunto Básico de Caminos Independientes**
+
+- Cada camino debe incluir al menos una **nueva aristas o condición** no explorada antes
+- **Heurísticas para definirlos:**
+	1. Elegir un **camino principal** que cubra la mayor cantidad de decisiones
+	2. Alternar el resultado de la **primera decisión** en el camino base
+	3. Modificar la **segunda decisión** manteniendo las demás igual
+	4. Repetir hasta cubrir todas las decisiones
+
+**Derivación de Casos de Prueba**
+
+Se diseñan pruebas específicas para forzar la ejecución de cada **camino independiente**, asegurando cobertura de sentencias y decisiones
+
+**Otras Técnicas de Prueba de Caja Blanca**
+
+1. **Prueba de Interfaz**
+	- Verifica el flujo de datos entre módulos (entradas/salidas)
+	- Asegura que los parámetros se pasan correctamente
+2. **Prueba de Estructuras de Datos Locales**
+	- Valida la integridad de variables y estructuras internas durante la ejecución
+3. **Prueba del Camino Básico**
+	- Basada en la **complejidad ciclomática** para definir casos de prueba
+4. **Prueba de Bucles**
+	- Evalúa la correcta implementación de bucles
+
+**Técnicas para Prueba de Bucles**
+
+1. **Bucles Simples**
+	- **Casos de prueba:**
+		- Saltar el bucle
+		- 1 iteración
+		- 2 iteraciones
+		- m iteraciones (m<n)
+		- n-1, n, n+1 iteraciones
+2. **Bucles Anidados**
+	- **Enfoque**
+		- Probar desde el **bucle más interno** hacia fuera
+		- Fijar bucles externos en **valores mínimos** mientras se prueba el interno
+3. **Bucles Concatenados**
+	- **Si son independientes**: Probar como bucles simples
+	- **Si son dependientes**: Tratar como bucles anidados
+4. **Bucles No Estructurados**
+	- **Solución**: Rediseñar para usar estructuras de control estándar
+
+**Conclusión**
+- La **complejidad ciclomática** ayuda a determinar el número mínimo de pruebas necesarias
+- Las **pruebas de bucles** son esenciales para validar algoritmos iterativos
+- Combinar estas técnicas asegura una **cobertura efectiva** del código 
+
+# Caja Negra
+
+**Definición de Pruebas de Caja Negra**
+
+- Se enfoca en probar la **funcionalidad del software** sin conocer su estructura interna
+- Basada en **requisitos y especificaciones**, no en el código
+
+**Técnicas de Prueba de Caja Negra**
+1. **Partición de Equivalencia**
+	- Divide los datos de entrada en **clases de equivalencia**
+	- Prueba un **valor representativo** de cada clase (si uno falla, toda la clase puede fallar)
+2. **Análisis de Valores Límite**
+	- Prueba valores en los **bordes** de las clases de equivalencia
+	- Ejemplo:  Si el rango válido es `n <= i <= m`, se prueban:
+		- `n-1` (inválido), `n` (válido), `n+1` (válido)
+		- `m-1` (válido), `m` (válido), `m+1` (inválido)
+3. **Grafos Causa-Efecto**
+	- Modela relaciones entre **entradas (causas) y salidas (efectos)**
+	- Útil para probar combinaciones complejas de condiciones
+4. **Pruebas de Casos de Uso**
+	- Simulan **escenarios reales de usuario** para validar el flujo de trabajo
+5. **Dirigidas por Sintaxis**
+	- Valida el **formato de entrada**
+
+**Comparación: Caja Blanca vs. Caja Negra**
+
+
+| **Aspecto**      | **Caja Blanca**                           | **Caja Negra**                            |
+| ---------------- | ----------------------------------------- | ----------------------------------------- |
+| **Enfoque**      | código                                    | Funcionalidad                             |
+| **Conocimiento** | Requiere acceso al código                 | No necesita conocer el código             |
+| **Técnicas**     | Cobertura de caminos, bucles, condiciones | Partición de equivalencia, valores límite |
+| **Objetivo**     | Detectar errores de lógica                | Validar comportamiento esperado           |
+
+**Prueba Basadas en Experiencia**
+
+1. **Alpha Testing**
+	- Realizado **internamente** por el equipo de desarrollo o QA
+	- Objetivo: **Simular usuarios reales** antes del lanzamiento
+	- Combina técnicas de **caja negra y blanca**
+2. **Beta Testing**
+	- Realizado por **usuarios reales** en un entorno real
+	- Tipos
+		- **Tradicional**: Feedback del mercado objetivo
+		- **Público**: Cualquier usuario puede probar
+		- **Técnico**: Pruebas internas de las organización
+		- **Enfocado**: Validar características específicas
+		- **Post-Lanzamiento**: Mejoras para futuras verisones
+
+**Organización de Casos de Prueba**
+- **Objetivos**
+	- Facilitar la comprensión y priorización
+	- Optimizar pruebas de regresión
+	- Mejorar la escalabilidad y la calidad del proyecto
+
+**Conclusiones**
+
+1. Las pruebas son clave para garantizar la **calidad del software**
+2. La **documentación** mejora el mantenimiento y evolución del producto
+3. **Alpha y Beta Testing** ayudan a detectar errores antes y después del lanzamiento
+
+**En resumen:**
+
+- **Caja negra** = Validar qué hace el software
+- **Caja blanca** = Validar cómo lo hace
+- **Pruebas de experiencia** = Validar usabilidad en entornos reales

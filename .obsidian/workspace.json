@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Tema 3"
             }
+          },
+          {
+            "id": "50166fe46481ac23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Contornos/Tema 3-1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tema 3-1"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +87,7 @@
                 "autoReveal": true
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -189,19 +203,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a9e80172ed54c835",
+  "active": "50166fe46481ac23",
   "lastOpenFiles": [
-    "Sistemas informaticos/Tarea 4.md",
     "Contornos/Tema 3.md",
+    "Contornos/Tema 3-1.md",
+    "Sistemas informaticos/Tarea 4.md",
     "Ejercicio 1 Clases equivalencia.md",
     "Bases de datos/Tema 5/Ejercicio 2.md",
     "Pasted image 20250314181305.png",
