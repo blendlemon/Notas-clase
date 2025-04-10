@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d2682a00aa261954",
+        "id": "4bead398025904ff",
         "type": "tabs",
         "children": [
           {
-            "id": "c32521acaad65d6e",
+            "id": "69e80cbc8a723696",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Contornos/Tarea Bad smells.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Tarea Bad smells"
+              "title": "New tab"
             }
           }
         ]
@@ -162,8 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,9 +172,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "c32521acaad65d6e",
+  "active": "69e80cbc8a723696",
   "lastOpenFiles": [
     "Contornos/Tarea Bad smells.md",
+    "Sistemas informaticos/Comandos linux.md",
     "Ejercicio 1 Clases equivalencia.md",
     "Sistemas informaticos/Tarea 4.md",
     "Contornos/Tema 3.md",
