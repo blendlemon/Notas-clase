@@ -11,10 +11,14 @@
             "id": "69e80cbc8a723696",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Sistemas informaticos/Comandos linux.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Comandos linux"
             }
           }
         ]
@@ -174,8 +178,12 @@
   },
   "active": "69e80cbc8a723696",
   "lastOpenFiles": [
-    "Contornos/Tarea Bad smells.md",
+    "Sistemas informaticos/11.png",
     "Sistemas informaticos/Comandos linux.md",
+    "Sistemas informaticos/10-1.png",
+    "Sistemas informaticos/5.png",
+    "Sistemas informaticos/MODELO OSI.md",
+    "Contornos/Tarea Bad smells.md",
     "Ejercicio 1 Clases equivalencia.md",
     "Sistemas informaticos/Tarea 4.md",
     "Contornos/Tema 3.md",
@@ -187,7 +195,6 @@
     "Contornos/Boletín 2.md",
     "Contornos/Normas relacionadas con el software documentación y pruebas.md",
     "Bases de datos/Boletin teoria 2/Boletin Teoria 2.md",
-    "Sistemas informaticos/MODELO OSI.md",
     "Sistemas informaticos/Tarea 3. Ejemplos Protocolos.md",
     "Sistemas informaticos/TEMA 3.md",
     "Contornos/Herramientas SW para pruebas.md",
