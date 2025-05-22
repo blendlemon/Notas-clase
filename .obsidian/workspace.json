@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Contornos/Contornos final/Tema 4/1. Refactorización.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Contornos/Contornos final/Tema 4/2. Bad Smells.md",
-                "mode": "source",
+                "file": "Contornos/Contornos final/Tema 4/3. Refactorización en Netbeans.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Bad Smells"
+              "title": "3. Refactorización en Netbeans"
             }
           },
           {
@@ -47,20 +47,6 @@
               },
               "icon": "lucide-file",
               "title": "3. Refactorización en Netbeans"
-            }
-          },
-          {
-            "id": "eed9bfa3efc00b08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Contornos/Contornos final/Tema 4/1. Refactorización.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. Refactorización"
             }
           },
           {
@@ -90,23 +76,9 @@
               "icon": "lucide-file",
               "title": "Diagrama de Clase"
             }
-          },
-          {
-            "id": "68ae158378d5796b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Contornos/Contornos final/Tema 6/Elaboración de diagramas de comportamiento.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Elaboración de diagramas de comportamiento"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -253,18 +225,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6a045cd33b11da4c",
+  "active": "c9bfd11b9e947cfe",
   "lastOpenFiles": [
+    "Contornos/Contornos final/Tema 4/2. Bad Smells.md",
+    "Contornos/Contornos final/Tema 4/1. Refactorización.md",
+    "Contornos/Contornos final/Tema 4/3. Refactorización en Netbeans.md",
     "Contornos/Contornos final/Tema 5/Diagrama de Clase.md",
     "Contornos/Contornos final/Tema 6/Elaboración de diagramas de comportamiento.md",
-    "Contornos/Contornos final/Tema 6",
     "Contornos/Contornos final/Tema 4/5. Documentación.md",
-    "Contornos/Contornos final/Tema 5",
-    "Contornos/Contornos final/Tema 4/1. Refactorización.md",
-    "Contornos/Contornos final/Tema 4/2. Bad Smells.md",
     "Contornos/Contornos final/Tema 4/4. Patrones de Diseño.md",
+    "Contornos/Contornos final/Tema 6",
+    "Contornos/Contornos final/Tema 5",
     "Contornos/Contornos final/Tema 4",
-    "Contornos/Contornos final/Tema 4/3. Refactorización en Netbeans.md",
     "Sin título 1.md",
     "Contornos/Tema 3-1.md",
     "Contornos/Contornos final",
